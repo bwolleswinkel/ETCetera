@@ -11,7 +11,7 @@ import numpy as np
 import scipy.sparse.linalg as sla
 import scipy.sparse as sparse
 import scipy.linalg as la
-from scipy.sparse.linalg.eigen.arpack import ArpackNoConvergence
+# from scipy.sparse.linalg.eigen.arpack import ArpackNoConvergence  # Remove this, this package is unused and no longer exists
 
 
 class TrafficAutomaton:

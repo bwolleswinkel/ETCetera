@@ -16,7 +16,7 @@ from .linearsys import Plant, LinearPlant, Controller, LinearController
 from .etcutil import normalize_state_to_lyapunov, is_positive_definite
 
 ''' Important to prevent legacy Matrix object returned from control lib'''
-ct.use_numpy_matrix(flag=False)
+# ct.use_numpy_matrix(flag=False)  # Remove this, this command is depreciated
 
 ''' Settings for solvers '''
 _MAX_TRIES_TIGHT_LYAPUNOV = 10
